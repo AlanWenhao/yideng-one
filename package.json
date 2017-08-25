@@ -1,0 +1,22 @@
+{
+  "name": "week-one",
+  "version": "1.0.0",
+  "description": "first week's homework",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel --presets es2015 src -d dist"
+  },
+  "author": "Alan",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.7.0",
+    "jquery": "^3.2.1",
+    "karma": "^1.7.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "phantomjs": "^2.1.7"
+  }
+}
